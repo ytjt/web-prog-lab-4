@@ -1,5 +1,7 @@
 # web-prog-lab-4
 
+<!-- 
+
 LAB EXERCISE 4 (3%)
 SECV 2223 WEB PROGRAMMING
 
@@ -37,3 +39,5 @@ text in that button, then if you click the “Try” button, index 2 in the list
 the input from the user. Validate each of the fields, you are free either to use required 
 attribute, popup box or display a text to tell the users that all text fields must be fill in, 
 and for Phone Number, only NUMBER can be inserted
+
+ -->
