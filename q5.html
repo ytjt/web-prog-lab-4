@@ -7,9 +7,27 @@
     <title>Question 5</title>
 </head>
 <body>
-    
-    <script>
+    <form onsubmit= "myFunction()">
+        <label id = "myLabel1">Username:&nbsp;&nbsp;</label>
+        <input type="text" id="username" name ="username" required>
+        <br>
+        <br>
+        <label id = "myLabel2">Password:&nbsp;&nbsp;</label>
+        <input type="password" id="password" name ="password" required>
+        <br>
+        <br>
+        <label id = "myLabel3">Phone Number (without '-'):&nbsp;&nbsp;</label>
+        <input type="text" id="telphone" placeholder = "ex. 0123456789"name ="telphone" pattern="[0-9]+" required>
+        <br>
+        <br>
+        <input type = "submit" value = "Submit" onclick="myCheck()">
+        <p id="myDisplay"></p>
+    </form>
 
+    <script>
+        function myFunction(){
+            alert("Thank you!");
+        }
     </script>
 </body>
 </html>
